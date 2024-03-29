@@ -1,10 +1,14 @@
-import { Button } from "@/components/ui/button.tsx";
+import { ThemeProvider } from "@/context/theme-provider.tsx";
+import { Nav } from "@/components/nav.tsx";
 
 function App() {
   return (
-    <div className={"bg-foreground"}>
-      <Button>xd</Button>
-    </div>
+    <ThemeProvider>
+      <div className="border-b border-border">
+        <Nav />
+      </div>
+      <div className="m-auto max-w-7xl"></div>
+    </ThemeProvider>
   );
 }
 
