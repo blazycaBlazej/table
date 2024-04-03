@@ -1,3 +1,3 @@
-#npm ci
-#npm start
-#npm run storybook
+npm ci
+npm start
+npm run storybook
